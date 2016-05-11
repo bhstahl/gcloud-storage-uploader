@@ -1,0 +1,26 @@
+{
+  "name": "gcloud-storage-uploader",
+  "version": "0.0.1",
+  "description": "Resumable uploads to Google Cloud Storage",
+  "main": "index.js",
+  "scripts": {
+    "example": "node example/example.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhstahl/gcloud-storage-uploader.git"
+  },
+  "author": "bhstahl@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhstahl/gcloud-storage-uploader/issues"
+  },
+  "homepage": "https://github.com/bhstahl/gcloud-storage-uploader#readme",
+  "devDependencies": {
+    "@vimeo/eslint-config-player": "^4.0.1",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-plugin-promise": "^1.1.0"
+  }
+}
