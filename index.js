@@ -1,7 +1,5 @@
 'use strict';
 
-const GCloudRequest = require('./src/GCloudRequest');
+const GCloudStorageUploader = require('./src/GCloudStorageUploader');
 
-module.exports = {
-    GCloudRequest,
-};
+module.exports = GCloudStorageUploader;

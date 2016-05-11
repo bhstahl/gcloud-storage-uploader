@@ -1,9 +1,9 @@
 'use strict';
 
 const GCloudStorageUploader = require('../index');
-const params = {
-    method: 'POST',
-};
 
-const request = new GCloudStorageUploader.GCloudRequest(params);
-console.log(request);
+const uploader = new GCloudStorageUploader();
+uploader.upload({
+    file: 'file.mp4',
+    bucket: 'tus-dev',
+});

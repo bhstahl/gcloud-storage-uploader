@@ -4,7 +4,7 @@
   "description": "Resumable uploads to Google Cloud Storage",
   "main": "index.js",
   "scripts": {
-    "example": "node example/example.js",
+    "example": "cd example && node example.js",
     "lint": "eslint ."
   },
   "repository": {
@@ -22,5 +22,9 @@
     "babel-eslint": "^6.0.4",
     "eslint": "^2.9.0",
     "eslint-plugin-promise": "^1.1.0"
+  },
+  "dependencies": {
+    "google-auto-auth": "^0.2.4",
+    "object-assign": "^4.1.0"
   }
 }
